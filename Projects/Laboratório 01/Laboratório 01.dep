@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>3319926650</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\List\Laboratório 01.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\asm.o.rsp</file>
+            <file>$TOOLKIT_DIR$\config\generic_cortex.icf</file>
+            <file>$PROJ_DIR$\asm.s</file>
+            <file>$PROJ_DIR$\..\aapcs\src\main.c</file>
+            <file>$PROJ_DIR$\..\asm_example\src\asm.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\asm.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\Laboratório 01.out</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 7 0</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\asm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 1</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Laboratório 01.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 2 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
