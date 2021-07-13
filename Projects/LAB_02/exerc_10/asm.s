@@ -13,21 +13,21 @@ __iar_program_start
 main       
         MOV R0, #0x1 ;R0 recebe o valor 1 hexadecimal
         MOV R1, #0x4    ; R1 recebe o valor 4 hexadecimal
-        MOV R2, #0
+        MOV R2, #0 ; R2 recebe o valor 4 decimal
         
 Mul16b
-        LSRS R1, R1, #1
-        BCS multiplica
-        BCC desloca
+        LSRS R1, R1, #1; aqui, é realizado um deslocamento para a direita em R1, colocando o bit menos significativo no flag C
+        BCS multiplica ; Se o flag C estiver setado em 1, realiza-se um desvio para a subrotina "multiplica"
+        BCC desloca     ;Caso contrário, realiza-se um desvio para a subrotina "desloca"
         
 multiplica
-        ADD R2, R0
-        LSL R0, R0, #1
-        B sair
+        ADD R2, R0 ; Soma-se o conteúdo dos dois registradores
+        LSL R0, R0, #1 ; deslocase-se R0 para a esquerda em uma unidade
+        B sair  ; indica o fim da subrotina
         
-desloca ADD R2, #0
-        LSL R0, R0, #1
-        B sair
+desloca ADD R2, #0 ;
+        LSL R0, R0, #1 ;deslocase-se R0 para a esquerda em uma unidade
+        B sair  ;fim da subrotina
         
 sair
 

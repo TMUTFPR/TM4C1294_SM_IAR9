@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9-main\Projects\LAB_02\exerc_11\settings\exerc_11.Debug.general.xcl" --backend -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9-main\Projects\LAB_02\exerc_11\settings\exerc_11.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9\Projects\LAB_02\exerc_11\settings\exerc_11.Debug.general.xcl" --backend -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9\Projects\LAB_02\exerc_11\settings\exerc_11.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9-main\Projects\LAB_02\exerc_11\settings\exerc_11.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9-main\Projects\LAB_02\exerc_11\settings\exerc_11.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9\Projects\LAB_02\exerc_11\settings\exerc_11.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9\Projects\LAB_02\exerc_11\settings\exerc_11.Debug.driver.xcl" 
 
 @echo off 
 :end

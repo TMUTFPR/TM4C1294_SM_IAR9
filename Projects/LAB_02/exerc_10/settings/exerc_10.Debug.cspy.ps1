@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9-main\Projects\LAB_02\exerc_10\settings\exerc_10.Debug.general.xcl" --backend -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9-main\Projects\LAB_02\exerc_10\settings\exerc_10.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9\Projects\LAB_02\exerc_10\settings\exerc_10.Debug.general.xcl" --backend -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9\Projects\LAB_02\exerc_10\settings\exerc_10.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9-main\Projects\LAB_02\exerc_10\settings\exerc_10.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9-main\Projects\LAB_02\exerc_10\settings\exerc_10.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9\Projects\LAB_02\exerc_10\settings\exerc_10.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\thiag\OneDrive\Área de Trabalho\Disciplinas\Microcontroladores\TM4C1294_SM_IAR9\Projects\LAB_02\exerc_10\settings\exerc_10.Debug.driver.xcl" 
 }
