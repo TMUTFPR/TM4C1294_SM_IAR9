@@ -46,13 +46,18 @@ GPIO_DEN                EQU     0x051C
 ; GPIOJ_Handler: Interrupt Service Routine for port GPIO J
 ; Utiliza R11 para se comunicar com o programa principal
 GPIOJ_Handler:
-        MOV R0, #00000001b ; ACK do bit 0
-        LDR R1, =GPIO_PORTJ_BASE
-        STR R0, [R1, #GPIO_ICR]
-        
-        ADD R11, R11, #1 ; tratamento
+    LDR R1, =GPIO_PORTJ_BASE
+    LDR R0, [R1, #GPIO_RIS]
+    STR R0, [R1, #GPIO_ICR]
+    
+    CMP R0, #2          ; compara se R0 = 2
+    IT EQ               ; se for verdadeiro, realiza as linhas seguintes identados 
+      SUBEQ R11, R11, #1        ; Subtrai 1 do valor de R11 caso seja verdadeiro
+      BEQ int_end       ; se for verdaeiro, vai para o final da SR sem realizar a operação da linha seguinte
+    ADD R11, R11, #1    ; se for falso, realiza esta operação
+    B int_end ; retorno da ISR 
 
-        BX LR ; retorno da ISR
+int_end:  BX LR
 
 
 ; PROGRAMA PRINCIPAL

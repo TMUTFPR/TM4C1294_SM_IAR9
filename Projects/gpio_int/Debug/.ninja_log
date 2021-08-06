@@ -1,0 +1,8 @@
+# ninja log v5
+2200	2543	6491363169490229	C:/Users/thiag/OneDrive/Área de Trabalho/Disciplinas/Microcontroladores/TM4C1294_SM_IAR9-main/Projects/gpio_int/Debug/Obj/startup_TM4C1294.o	72835a332cd7be5e
+1	35	6491364252259239	C:/Users/thiag/OneDrive/Área de Trabalho/Disciplinas/Microcontroladores/TM4C1294_SM_IAR9-main/Projects/gpio_int/Debug/Obj/gpio_int.o	a1423dbbf50f6fd9
+47	1703	6491364268510198	C:/Users/thiag/OneDrive/Área de Trabalho/Disciplinas/Microcontroladores/TM4C1294_SM_IAR9-main/Projects/gpio_int/Debug/Exe/gpio_int.out	ed4299fec4a0c243
+29	538	6499151925349308	C:/Users/thiag/OneDrive/Área de Trabalho/Disciplinas/Microcontroladores/TM4C1294_SM_IAR9-main/Projects/gpio_int/Debug/Obj/gpio_int.o	a1423dbbf50f6fd9
+544	1813	6499151937661386	C:/Users/thiag/OneDrive/Área de Trabalho/Disciplinas/Microcontroladores/TM4C1294_SM_IAR9-main/Projects/gpio_int/Debug/Exe/gpio_int.out	ed4299fec4a0c243
+2	27	6499153125817733	C:/Users/thiag/OneDrive/Área de Trabalho/Disciplinas/Microcontroladores/TM4C1294_SM_IAR9-main/Projects/gpio_int/Debug/Obj/gpio_int.o	a1423dbbf50f6fd9
+35	117	6499153126655487	C:/Users/thiag/OneDrive/Área de Trabalho/Disciplinas/Microcontroladores/TM4C1294_SM_IAR9-main/Projects/gpio_int/Debug/Exe/gpio_int.out	ed4299fec4a0c243

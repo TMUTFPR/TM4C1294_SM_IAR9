@@ -5,41 +5,41 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\src\asm.s</file>
             <file>$TOOLKIT_DIR$\config\generic_cortex.icf</file>
             <file>$PROJ_DIR$\Debug\Obj\asm.o.rsp</file>
             <file>$PROJ_DIR$\Debug\Exe\asm_example.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\asm.o</file>
+            <file>$PROJ_DIR$\src\asm.s</file>
             <file>$PROJ_DIR$\Debug\List\asm.lst</file>
             <file>$PROJ_DIR$\Debug\List\asm_example.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\asm.o</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\src\asm.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 5 4</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 2</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\asm_example.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 6</file>
+                    <file> 5</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 1 4</file>
+                    <file> 0 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\asm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 4 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 1</file>
                 </tool>
             </inputs>
         </file>
@@ -48,7 +48,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 6 3</file>
+                    <file> 5 2</file>
                 </tool>
             </outputs>
         </file>
