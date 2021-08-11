@@ -14,3 +14,5 @@ GPIOJ_Handler:
     B int_end ; retorno da ISR 
 
 int_end:  BX LR
+
+As alterações para o laboratório 5 estão comentadas no projeto UART2
