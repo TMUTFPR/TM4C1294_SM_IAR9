@@ -6,36 +6,13 @@
         <name>Debug</name>
         <outputs>
             <file>$PROJ_DIR$\Debug\Obj\asm.o</file>
-            <file>$TOOLKIT_DIR$\config\generic_cortex.icf</file>
-            <file>$PROJ_DIR$\Debug\Exe\exerc_11.out</file>
             <file>$PROJ_DIR$\Debug\List\exerc_11.map</file>
-            <file>$PROJ_DIR$\asm.s</file>
             <file>$PROJ_DIR$\Debug\Obj\asm.o.rsp</file>
+            <file>$TOOLKIT_DIR$\config\generic_cortex.icf</file>
+            <file>$PROJ_DIR$\asm.s</file>
+            <file>$PROJ_DIR$\Debug\Exe\exerc_11.out</file>
+            <file>$PROJ_DIR$\..\..\uart2\src\uart2.s</file>
         </outputs>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 3 2</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\exerc_11.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 3</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 1 0</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\asm.s</name>
             <outputs>
@@ -47,9 +24,33 @@
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 5</file>
+                    <file> 2</file>
                 </tool>
             </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\exerc_11.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 3 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 1 5</file>
+                </tool>
+            </outputs>
         </file>
         <forcedrebuild>
             <name>[MULTI_TOOL]</name>

@@ -4,9 +4,7 @@
     <fileChecksum>3038726855</fileChecksum>
     <configuration>
         <name>Debug</name>
-        <outputs>
-            <file>$PROJ_DIR$\src\gpio.s</file>
-        </outputs>
+        <outputs />
         <forcedrebuild>
             <name>[MULTI_TOOL]</name>
             <tool>ILINK</tool>

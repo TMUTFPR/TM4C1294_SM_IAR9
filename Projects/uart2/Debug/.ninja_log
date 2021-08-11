@@ -1,0 +1,18 @@
+# ninja log v5
+2	83	6415926635263795	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart/Debug/Obj/asm.o	62be467fbcdff67e
+34	105	6415926635388291	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart/Debug/Obj/uart.o	8a3ff43f112f8f04
+45	136	6415926635440016	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart/Debug/Obj/startup_TM4C1294.o	b000f7b1bc5fe5e5
+1	59	6415927373259673	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart/Debug/Obj/startup_TM4C1294.o	a7cf58f4e2df896c
+11	84	6415927373320448	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart/Debug/Obj/uart.o	f26f5d2fe2119d41
+104	269	6415927375253674	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart/Debug/Exe/uart.out	41dc8c76ba8bbcd3
+4	316	6415953283080705	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart/Debug/Exe/uart.out	2e7b8e5c74405b8
+1	166	6415954094159881	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart/Debug/Exe/uart.out	41dc8c76ba8bbcd3
+14	97	6418552743291408	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart/Debug/Obj/uart.o	f26f5d2fe2119d41
+113	297	6418552745194141	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart/Debug/Exe/uart.out	41dc8c76ba8bbcd3
+1	27	6418604297518420	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart/Debug/Obj/uart.o	f26f5d2fe2119d41
+36	92	6418604298143257	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart/Debug/Exe/uart.out	41dc8c76ba8bbcd3
+2	76	6418664904350499	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart2/Debug/Obj/startup_TM4C1294.o	6cabee8c93f48452
+26	96	6418664904495237	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart2/Debug/Obj/uart2.o	d763026c13a4aacf
+117	293	6418664906449646	C:/Users/diego/OneDrive/Área de Trabalho/TUDO/FACULDADE/Sistemas Microcontrolados/Programas/EK-TM4C1294_SM_IAR8-main/Projects/uart2/Debug/Exe/uart2.out	bebe73d6f2b5dc23
+1	111	6503466126482759	C:/Users/thiag/OneDrive/Área de Trabalho/Disciplinas/Microcontroladores/TM4C1294_SM_IAR9/Projects/uart2/Debug/Obj/startup_TM4C1294.o	85584d550818e573
+1	56	6503468049408956	C:/Users/thiag/OneDrive/Área de Trabalho/Disciplinas/Microcontroladores/TM4C1294_SM_IAR9/Projects/uart2/Debug/Obj/uart2.o	794cbb139b0a77dc
